@@ -1,4 +1,5 @@
-print("hello")
+from someClass.someClass import SomeClass
 
-for x in ['a', 'b', 3]:
-    print(x)
+x = SomeClass('joe', 20)
+
+x.doSomething(10)
