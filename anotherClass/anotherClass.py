@@ -9,4 +9,4 @@ class AnotherClass:
         return min(self.numbers)
 
     def __repr__(self):
-        print(self.numbers)
+        return f'numbers are {self.numbers}'
